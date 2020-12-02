@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive-flex.html</title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Permanent+Marker&family=Satisfy&family=Vampiro+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    nav {
+display: flex;
+flex-flow: row wrap;
+justify-content: flex-end;
+font-family: 'Permanent Marker', cursive;
+}
+
+nav a {
+text-decoration: none;
+display: block;
+padding: 1em;
+color: black;
+font-size: 30px;
+}
+
+nav a:hover {
+background: #AA67D5;
+}
+
+header {
+display: flex;
+height:400px;
+flex-flow: row wrap;
+align-items: center;
+justify-content: center;
+font-size: 50px;
+font-family: 'Permanent Marker', cursive;
+}
+
+section {
+display:flex;
+flex-flow: row wrap;
+margin: 75px 100px 75px 100px;
+text-align: center;
+font-family: 'Syne Mono', monospace;
+}
+
+.ft {
+display:block;
+justify-content:space-between;
+}
+.yl {
+height:200px;
+margin:0px;
+margin-bottom:75px;
+}
+
+.st {
+display:flex;
+justify-content: space-between;
+}
+
+.tomato {
+height:400px;
+width:48%;
+}
+
+#t1 {
+  margin-right:4%
+}
+@media all and (max-width: 2500px) {
+header {
+  font-size: 145px;
+}
+section {
+  font-size:45px;
+}
+}
+@media all and (max-width: 1900px) {
+header {
+  font-size: 100px;
+}
+section {
+  font-size:39px;
+}
+}
+@media all and (max-width: 1600px) {
+section {
+  font-size:32.9px;
+}
+}
+@media all and (max-width: 1200px) {
+  nav a {
+    font-size:23px;
+  }
+   section {
+    font-size:27px;
+  }
+}
+@media all and (max-width: 1000px){
+     section {
+    font-size:25px;
+  }
+}
+@media all and (max-width: 800px) {
+nav {
+  justify-content: space-around;
+}
+   section {
+  font-size:20px;
+}
+header {
+  font-size:70px;
+}
+}
+
+@media all and (max-width: 600px) {
+nav {
+  flex-flow: column wrap;
+  padding: 0;
+}
+header {
+  font-size:60px;
+}
+nav a {
+  text-align: center;
+  padding: 10px;
+}
+}
+@media all and (min-width: 600px) {
+  .tom { flex: 1 0 0; }
+}
+.PreFt {
+height:40px;
+background-color:silver;
+display: flex;
+align-items: center;
+    justify-content:center;
+}
+
+footer {
+height:100px;
+background-color: black;
+display: flex;
+align-items: center;
+    justify-content:center;
+    color:#8c878c;
+}
+
+body {
+min-width:600px;
+}
+
+      .PreFt {
+        height:40px;
+        background-color:silver;
+        display: flex;
+        align-items: center;
+            justify-content:center;
+      }
+
+      footer {
+        height:100px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+            justify-content:center;
+            color:#8c878c;
+      }
+
+      body {
+        min-width:600px;
+      }
+      .bg {
+        background-image: url(neon.jpg)
+      }
+    </style>
+  </head>
+  <body>
+    <body>
+      <div class="bg">
+<nav>
+  <a href="index.html">Personal Web-Site</a>&nbsp;
+  <a href="personal.html">Personal Info</a>&nbsp;
+  <a href="contact.html">Contact Info</a>&nbsp;
+  <a href="responsive-flex.html">Responsive-Flex</a>&nbsp;
+  <a href="parallax.html">Parallax</a>&nbsp;
+  </nav>
+<header>
+Do you know what is HTML?
+</header>
+</div>
+<section>
+  <div class="main">
+    <p>Hypertext Markup Language (HTML) is the standard markup language
+      for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading
+      Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+  </div>
+  <p class="tom" id="t1">Cascading Syle Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.
+       CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+  <p class="tom">JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.</p>
+</section>
+<div class="PreFt">WANT TO KNOW MORE ABOUT HTML?</div>
+<footer>2020 © HTML Knowladge</footer>
+</body>
+  </body>
+</html>

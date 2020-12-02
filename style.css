@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Permanent+Marker&family=Satisfy&family=Vampiro+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&family=Quicksand:wght@600&display=swap');
+
+body {
+  background-image: url(back1.jpg);
+  height 100%;
+}
+nav {
+  width:2500px;
+  display: block;
+  height: 75px;
+  background-color:royalblue;
+  line-height: 75px;
+}
+
+header {
+  display: block;
+  height:300px;
+}
+
+.photo {
+  height:300px;
+  width:300px;
+  position: relative;
+  background-image: url(avatar.png);
+  left:300px;
+}
+
+#intro {
+  display: block;
+  position: relative;
+  left: 600px;
+  width:600px;
+  text-align: center;
+  font-size:25px;
+font-family: 'Indie Flower', cursive;
+}
+
+#section1 {
+  width:1100px;
+  height: 500px;
+  position:relative;
+  left:200px;
+  top: 75px;
+  margin-left:200px;
+  margin-right:200px;
+}
+
+.tg3 {
+    background-color:auto;
+  height: 500px;
+  width: 500px;
+  position:relative;
+  left: 600px;
+  bottom:850px;
+}
+
+.tg4 {
+  background-color:auto;
+  height: 100px;
+  width: 500px;
+  text-align:center;
+  padding-top: 50px;
+  font-size:48px;
+  font-family: 'Permanent Marker', cursive;
+}
+.tg5 {
+  background-color:auto;
+  height:320px;
+  width:250px;
+  padding-top: 30px;
+  line-height:1.5;
+  text-align:center;
+  font-size:20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.tg6 {
+  background-color:auto;
+  height:320px;
+  width:250px;
+  position:relative;
+  left:250px;
+  bottom:350px;
+  padding-top:30px;
+  line-height:1.5;
+  text-align:center;
+  font-size:20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#section2 {
+  height:770px;
+  width:1300px;
+    position:relative;
+  top:100px;
+  margin-top:50px;
+  margin-left:150px;
+  margin-right:150px;
+  left:150px;
+}
+
+.fvf {
+  background-color:auto;
+  height:360px;
+  width:1300px;
+}
+#tp50 {
+  position: relative;
+  top:50px;
+}
+.fvf1 {
+  background-color:auto;
+  height:40px;
+  width:1300px;
+  padding-top:20px;
+  text-align:center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
+}
+.ph1 {
+  background-image: url(gm.png);
+  height:300px;
+  width:300px;
+}
+
+.ph2 {
+  background-image: url(gf.png);
+  height:300px;
+  width:300px;
+  position:relative;
+  left:1000px;
+}
+.tff {
+  height:270px;
+  width:700px;
+  background-color: auto;
+  position:relative;
+  bottom:300px;
+  left:150px;
+  padding-top: 30px;
+  text-align:center;
+  font-size:22px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.tff1 {
+  height:270px;
+  width:700px;
+  background-color: auto;
+  position:relative;
+  bottom:300px;
+  left:450px;
+  padding-top: 30px;
+  text-align:center;
+  font-size:22px;
+  font-family: 'Indie Flower', cursive;
+}
+#tp100 {
+  position: relative;
+  top:500px;
+}
+#tp101 {
+  position: relative;
+  top:400px;
+}
+
+#preFoot {
+  display: block;
+  position: relative;
+  background-color: black;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 23px;
+  height:40px;
+  top:150px;
+  width: 2000px;
+}
+
+footer {
+  display:block;
+  background-color:grey;
+  color: white;
+  height:75px;
+  width: 2000px;
+  text-align:center;
+  line-height:75px;
+  position:relative;
+  top:150px;
+}
+
+a {
+  color: black;
+  font-size:25px;
+  margin-left:10px;
+  font-family:Arial;
+}
+
+a:hover {
+  color:red;
+}
+
+#ftop1 {
+  position: relative;
+  top: 400px;
+}
+
+#ftop2 {
+  position: relative;
+  top: 570px;
+}
